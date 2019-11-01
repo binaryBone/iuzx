@@ -1,0 +1,24 @@
+server:
+  port: 8220
+spring:
+  application:
+    name: iuzx-eureka
+  profiles:
+    active: dev
+
+eureka:
+
+  instance:
+    hostname: localhost
+  client:
+    #由于该应用为注册中心,设置为false,表明不向注册中心注册自己
+    registerWithEureka: false
+    #是否从eureka服务器获取注册信息，这里不需要
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    #关闭保护机制，以确保注册中心将不可用的实例正确剔除
+    enable-self-preservation: false
+    #（代表是5秒，单位是毫秒,清理失效服务的间隔 ）
+    eviction-interval-timer-in-ms: 5000

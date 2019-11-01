@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/iuzx-commonservice-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iuzx-framework-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iuzx-framewwork-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iuzx-microservice-edu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iuzx-microservice-oss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iuzx-microservice-statistics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iuzx-microservice-sysuser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iuzx-microservice-ucenter" charset="UTF-8" />
+  </component>
+</project>
